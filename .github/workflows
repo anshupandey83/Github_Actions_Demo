@@ -1,13 +1,1 @@
-name: Hello World
 
-on:
-  push:
-  workflow_dispatch:
-
-jobs:
-  hello:
-run-on: ubuntu-latest
-
-  steps:
-    - name: Print Hello World
-      run: echo "Hello world DS SEC A"
